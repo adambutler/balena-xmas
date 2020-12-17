@@ -1,0 +1,19 @@
+version: "2"
+slug: "balena-xmas"
+name: "5V LED Xmas tree"
+type: "sw.application"
+assets:
+  - url: "https://github.com/adambutler/balena-xmas/"
+    name: "repository"
+  - url: "https://raw.githubusercontent.com/adambutler/balena-xmas/assets/logo.png"
+    name: "logo"
+data:
+  description: "Draw on your xmas tree animations from the awesome rpi-ws281x libary by Pimoroni"
+  applicationEnvironmentVariables:
+    - LED_BRIGHTNES: 255
+    - LED_COUNT: 300
+  defaultDeviceType: "raspberry-pi"
+  supportedDeviceTypes:
+    - "raspberry-pi"
+    - "raspberrypi3"
+    - "fincm3"
