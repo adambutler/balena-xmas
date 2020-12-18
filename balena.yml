@@ -5,7 +5,7 @@ type: "sw.application"
 assets:
   - url: "https://github.com/adambutler/balena-xmas/"
     name: "repository"
-  - url: "https://raw.githubusercontent.com/adambutler/balena-xmas/assets/logo.png"
+  - url: "https://raw.githubusercontent.com/adambutler/balena-xmas/main/assets/logo.png"
     name: "logo"
 data:
   description: "Draw on your xmas tree animations from the awesome rpi-ws281x libary by Pimoroni"
